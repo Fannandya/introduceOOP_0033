@@ -13,7 +13,12 @@ private:
 public:
     void inputData()
     {
-        d
+        cout << "masukkan nama mobil = " << endl;
+        cin >> namaMobil;
+        cout << "masukkan tipe mobil = " << endl;
+        cin >> tipeMobil;
+        cout << "masukkan harga mobil = " << endl;
+        cin >> hargaMobil;
     }
 };
 
