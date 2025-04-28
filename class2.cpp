@@ -20,3 +20,10 @@ private:
     {
         return p * i;
     }
+
+public:
+    void outputData()
+    {
+        cout << "tampilkan luas = " << luas(panjang, lebar) << endl;
+    }
+};
