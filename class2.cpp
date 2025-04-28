@@ -27,3 +27,10 @@ public:
         cout << "tampilkan luas = " << luas(panjang, lebar) << endl;
     }
 };
+
+int main()
+{
+    pp luasnya;          // cara memanggil class, panggil nama class, habistu dibuat namanya
+    luasnya.inputData(); // kalo method harus dengan kurung buka tutup
+    luasnya.outputData();
+}
