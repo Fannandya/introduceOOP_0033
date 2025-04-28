@@ -20,6 +20,10 @@ public:
         cout << "masukkan harga mobil = " << endl;
         cin >> hargaMobil;
     }
+    void outputData()
+    {
+        cout << "harga mobil = " << hargaMobil << endl;
+    }
 };
 
 int main()
@@ -28,4 +32,5 @@ int main()
     carry.inputData(); // kalo method harus dengan kurung buka tutup
     cout << "nama mobil = " << carry.namaMobil << endl;
     cout << "tipe mobil = " << carry.tipeMobil << endl;
+    carry.outputData();
 }
