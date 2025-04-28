@@ -14,3 +14,9 @@ public:
         cout << "masukkan lebarnya = ";
         cin >> lebar;
     };
+
+private:
+    float luas(int p, int i)
+    {
+        return p * i;
+    }
