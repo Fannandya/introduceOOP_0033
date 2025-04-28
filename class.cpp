@@ -24,5 +24,8 @@ public:
 
 int main()
 {
-    w
+    Mobil carry;       // cara memanggil class, panggil nama class, habistu dibuat namanya
+    carry.inputData(); // kalo method harus dengan kurung buka tutup
+    cout << "nama mobil = " << carry.namaMobil << endl;
+    cout << "tipe mobil = " << carry.tipeMobil << endl;
 }
